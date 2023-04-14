@@ -4,7 +4,7 @@ const CONFIG_SIMPLE = {
   TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
   LOGO_DESCRIPTION:
     process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION ||
-    '<div>Love technology, love life.</div>',
+    '<div>程序员、运维、医疗信息</div>',
 
   AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
 
