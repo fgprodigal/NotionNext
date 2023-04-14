@@ -4,5 +4,12 @@ services:
     container_name: notion-next
     build: .
     restart: unless-stopped
-    ports:
-      - 3000:3000
+    networks:
+      network:
+        ipv4_address: 172.25.0.2
+
+networks:
+  network:
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24
